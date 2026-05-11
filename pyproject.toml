@@ -1,0 +1,16 @@
+[project]
+name = "sentiment-embedding-cnn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.8.5",
+    "fastapi>=0.136.1",
+    "pydantic>=2.13.4",
+    "scikit-learn>=1.8.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.11.0",
+    "tqdm>=4.67.3",
+    "uvicorn[standard]>=0.46.0",
+]

@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# OS/editor files
+.DS_Store
+
+# Training outputs and TensorBoard logs
+artifacts/
+runs/
+amazon_reviews_hybrid_colab_artifacts/
+*.pt
+*.pth
+*.ckpt
+*.zip
